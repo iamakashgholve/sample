@@ -1,0 +1,136 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Install the latest PowerShell for new features and improvements! https://aka.ms/PSWindows
+
+PS C:\Users\dac\Desktop\AKASH\Class_Work\Theory -20231125T130324Z-001\ClassRoom\Day 16> git init
+Initialized empty Git repository in C:/Users/dac/Desktop/AKASH/Class_Work/Theory -20231125T130324Z-001/ClassRoom/Day 16/.git/
+PS C:\Users\dac\Desktop\AKASH\Class_Work\Theory -20231125T130324Z-001\ClassRoom\Day 16> git remote add origin https://github.com/iamakashgholve/sample.git
+PS C:\Users\dac\Desktop\AKASH\Class_Work\Theory -20231125T130324Z-001\ClassRoom\Day 16> git branch
+PS C:\Users\dac\Desktop\AKASH\Class_Work\Theory -20231125T130324Z-001\ClassRoom\Day 16> git branch -M main
+PS C:\Users\dac\Desktop\AKASH\Class_Work\Theory -20231125T130324Z-001\ClassRoom\Day 16> git status
+On branch main
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        day16_data/
+
+nothing added to commit but untracked files present (use "git add" to track)
+PS C:\Users\dac\Desktop\AKASH\Class_Work\Theory -20231125T130324Z-001\ClassRoom\Day 16> git add .
+warning: in the working copy of 'day16_data/day16_data/code/day16.1/.gitignore', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'day16_data/day16_data/code/day16.1/.mvn/wrapper/maven-wrapper.properties', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'day16_data/day16_data/code/day16.1/mvnw', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'day16_data/day16_data/code/day16.1/mvnw.cmd', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'day16_data/day16_data/code/day16.1/pom.xml', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'day16_data/day16_data/code/day16.1/src/main/java/com/app/Application.java', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'day16_data/day16_data/code/day16.1/src/main/resources/application.properties', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'day16_data/day16_data/code/day16.1/src/test/java/com/app/ApplicationTests.java', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'day16_data/day16_data/code/day16.2/.gitignore', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'day16_data/day16_data/code/day16.2/.mvn/wrapper/maven-wrapper.properties', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'day16_data/day16_data/code/day16.2/mvnw', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'day16_data/day16_data/code/day16.2/mvnw.cmd', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'day16_data/day16_data/code/day16.2/pom.xml', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'day16_data/day16_data/code/day16.2/src/main/java/com/app/Application.java', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'day16_data/day16_data/code/day16.2/src/main/resources/application.properties', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'day16_data/day16_data/code/day16.2/src/test/java/com/app/ApplicationTests.java', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'day16_data/day16_data/day16_help/Spring Data JPA/regarding spring data JPA.txt', LF will be replaced by CRLF the next time Git touches it
+PS C:\Users\dac\Desktop\AKASH\Class_Work\Theory -20231125T130324Z-001\ClassRoom\Day 16> git commit -m "day 16 uploading"
+[main (root-commit) d258cd7] day 16 uploading
+ Committer: dac <dac@students.acts.in>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 67 files changed, 3615 insertions(+)
+ create mode 100644 day16_data/day16_data/Adv Java lab instructions n assignments.txt
+ create mode 100644 day16_data/day16_data/DAC-Assignment.txt
+ create mode 100644 day16_data/day16_data/code/day16.1/.gitignore
+ create mode 100644 day16_data/day16_data/code/day16.1/.mvn/wrapper/maven-wrapper.jar
+ create mode 100644 day16_data/day16_data/code/day16.1/.mvn/wrapper/maven-wrapper.properties
+ create mode 100644 day16_data/day16_data/code/day16.1/mvnw
+ create mode 100644 day16_data/day16_data/code/day16.1/mvnw.cmd
+ create mode 100644 day16_data/day16_data/code/day16.1/pom.xml
+ create mode 100644 day16_data/day16_data/code/day16.1/src/main/java/com/app/Application.java
+ create mode 100644 day16_data/day16_data/code/day16.1/src/main/java/com/app/controller/HomeController.java
+ create mode 100644 day16_data/day16_data/code/day16.1/src/main/java/com/app/controller/PlayerController.java
+ create mode 100644 day16_data/day16_data/code/day16.1/src/main/java/com/app/controller/TeamController.java
+ create mode 100644 day16_data/day16_data/code/day16.1/src/main/java/com/app/dao/PlayerDao.java
+ create mode 100644 day16_data/day16_data/code/day16.1/src/main/java/com/app/dao/PlayerDaoImpl.java
+ create mode 100644 day16_data/day16_data/code/day16.1/src/main/java/com/app/dao/TeamDao.java
+ create mode 100644 day16_data/day16_data/code/day16.1/src/main/java/com/app/dao/TeamDaoImpl.java
+ create mode 100644 day16_data/day16_data/code/day16.1/src/main/java/com/app/pojos/BaseEntity.java
+ create mode 100644 day16_data/day16_data/code/day16.1/src/main/java/com/app/pojos/Player.java
+ create mode 100644 day16_data/day16_data/code/day16.1/src/main/java/com/app/pojos/Team.java
+ create mode 100644 day16_data/day16_data/code/day16.1/src/main/java/com/app/service/PlayerService.java
+ create mode 100644 day16_data/day16_data/code/day16.1/src/main/java/com/app/service/PlayerServiceImpl.java
+ create mode 100644 day16_data/day16_data/code/day16.1/src/main/java/com/app/service/TeamService.java
+ create mode 100644 day16_data/day16_data/code/day16.1/src/main/java/com/app/service/TeamServiceImpl.java
+ create mode 100644 day16_data/day16_data/code/day16.1/src/main/resources/application.properties
+ create mode 100644 day16_data/day16_data/code/day16.1/src/main/webapp/WEB-INF/views/index.jsp
+ create mode 100644 day16_data/day16_data/code/day16.1/src/main/webapp/WEB-INF/views/players/show.jsp
+ create mode 100644 day16_data/day16_data/code/day16.1/src/main/webapp/WEB-INF/views/teams/add_player_form.jsp
+ create mode 100644 day16_data/day16_data/code/day16.1/src/test/java/com/app/ApplicationTests.java
+ create mode 100644 day16_data/day16_data/code/day16.2/.gitignore
+ create mode 100644 day16_data/day16_data/code/day16.2/.mvn/wrapper/maven-wrapper.jar
+ create mode 100644 day16_data/day16_data/code/day16.2/.mvn/wrapper/maven-wrapper.properties
+ create mode 100644 day16_data/day16_data/code/day16.2/mvnw
+ create mode 100644 day16_data/day16_data/code/day16.2/mvnw.cmd
+ create mode 100644 day16_data/day16_data/code/day16.2/pom.xml
+ create mode 100644 day16_data/day16_data/code/day16.2/src/main/java/com/app/Application.java
+ create mode 100644 day16_data/day16_data/code/day16.2/src/main/java/com/app/controller/HomeController.java
+ create mode 100644 day16_data/day16_data/code/day16.2/src/main/java/com/app/controller/PlayerController.java
+ create mode 100644 day16_data/day16_data/code/day16.2/src/main/java/com/app/controller/TeamController.java
+ create mode 100644 day16_data/day16_data/code/day16.2/src/main/java/com/app/dao/PlayerDao.java
+ create mode 100644 day16_data/day16_data/code/day16.2/src/main/java/com/app/dao/TeamDao.java
+ create mode 100644 day16_data/day16_data/code/day16.2/src/main/java/com/app/pojos/BaseEntity.java
+ create mode 100644 day16_data/day16_data/code/day16.2/src/main/java/com/app/pojos/Player.java
+ create mode 100644 day16_data/day16_data/code/day16.2/src/main/java/com/app/pojos/Team.java
+ create mode 100644 day16_data/day16_data/code/day16.2/src/main/java/com/app/service/PlayerService.java
+ create mode 100644 day16_data/day16_data/code/day16.2/src/main/java/com/app/service/PlayerServiceImpl.java
+ create mode 100644 day16_data/day16_data/code/day16.2/src/main/java/com/app/service/TeamService.java
+ create mode 100644 day16_data/day16_data/code/day16.2/src/main/java/com/app/service/TeamServiceImpl.java
+ create mode 100644 day16_data/day16_data/code/day16.2/src/main/resources/application.properties
+ create mode 100644 day16_data/day16_data/code/day16.2/src/main/webapp/WEB-INF/views/index.jsp
+ create mode 100644 day16_data/day16_data/code/day16.2/src/main/webapp/WEB-INF/views/players/show.jsp
+ create mode 100644 day16_data/day16_data/code/day16.2/src/main/webapp/WEB-INF/views/teams/add_player_form.jsp
+ create mode 100644 day16_data/day16_data/code/day16.2/src/test/java/com/app/ApplicationTests.java
+ create mode 100644 day16_data/day16_data/day16_help/REST/REST Constraints.txt
+ create mode 100644 day16_data/day16_data/day16_help/REST/REST simplified.txt
+ create mode 100644 day16_data/day16_data/day16_help/REST/React Frontend App/React Front end App.zip
+ create mode 100644 day16_data/day16_data/day16_help/REST/Regarding CORS.txt
+ create mode 100644 day16_data/day16_data/day16_help/REST/Regarding web service.txt
+ create mode 100644 day16_data/day16_data/day16_help/REST/RestController vs MVC Controller n Annotations.txt
+ create mode 100644 day16_data/day16_data/day16_help/REST/Steps for Spring Boot based project for Backend.txt
+ create mode 100644 day16_data/day16_data/day16_help/REST/diags/Full Stack Overview.png
+ create mode 100644 day16_data/day16_data/day16_help/REST/diags/web app vs web service.png
+ create mode 100644 day16_data/day16_data/day16_help/Spring Data JPA/regarding spring data JPA.txt
+ create mode 100644 day16_data/day16_data/day16_help/Spring Data JPA/spring-data-jpa-2.6.2-javadoc.jar
+ create mode 100644 day16_data/day16_data/day16_help/Transaction Configuration steps.txt
+ create mode 100644 day16_data/day16_data/day16_help/regarding form binding.txt
+ create mode 100644 day16_data/day16_data/day16_help/sequence.txt
+ create mode 100644 day16_data/day16_data/day16_help/transactions/spring-tx-management.png
+PS C:\Users\dac\Desktop\AKASH\Class_Work\Theory -20231125T130324Z-001\ClassRoom\Day 16> git push origin main
+info: please complete authentication in your browser...
+Enumerating objects: 90, done.
+Counting objects: 100% (90/90), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (75/75), done.
+Writing objects: 100% (90/90), 1.36 MiB | 2.50 MiB/s, done.
+Total 90 (delta 8), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (8/8), done.
+To https://github.com/iamakashgholve/sample.git
+ * [new branch]      main -> main
+PS C:\Users\dac\Desktop\AKASH\Class_Work\Theory -20231125T130324Z-001\ClassRoom\Day 16> git push -u origin main
+Everything up-to-date
+branch 'main' set up to track 'origin/main'.
+PS C:\Users\dac\Desktop\AKASH\Class_Work\Theory -20231125T130324Z-001\ClassRoom\Day 16>
